@@ -1,0 +1,302 @@
+{
+  "@@locale": "en",
+  "appName": "chess.tn",
+  "tagline": "Build your army in secret… then we lift the curtain.",
+  "normalChess": "Classic Chess",
+  "normalChessSubtitle": "Play chess the classic way",
+  "specialChess": "Special Chess",
+  "specialBadge": "SPECIAL",
+  "specialChessSubtitle": "Build your army where they can't see it!",
+  "vsAi": "vs AI",
+  "vsFriend": "vs a friend",
+  "settings": "Settings",
+  "language": "Language",
+  "back": "Back",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "close": "Close",
+  "languageDarija": "العربية التونسية",
+  "languageEnglish": "English",
+  "languageFrench": "Français",
+  "sectionGame": "Game",
+  "sectionAudio": "Sound",
+  "sectionAppearance": "Look",
+  "sound": "Sound effects",
+  "music": "Music",
+  "vibration": "Vibration",
+  "boardTheme": "Board theme",
+  "pieceTheme": "Piece style",
+  "showLegalMoves": "Show legal moves",
+  "animations": "Animations",
+  "defaultAiLevel": "Default AI level",
+  "aboutOffline": "No account, no internet: just open and play.",
+  "boardThemeTunisian": "Tunisian",
+  "boardThemeClassic": "Classic",
+  "boardThemeDark": "Dark",
+  "boardThemeWood": "Wood",
+  "pieceThemeClassic": "Classic",
+  "level1": "Very easy",
+  "level2": "Easy",
+  "level3": "Medium",
+  "level4": "Hard",
+  "level5": "Expert",
+  "levelNumber": "Level {n}",
+  "@levelNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseLevel": "Pick a level",
+  "chooseColor": "Which colour do you play?",
+  "colorWhite": "White",
+  "colorBlack": "Black",
+  "colorRandom": "Surprise me",
+  "startGame": "Start the game",
+  "friendTitle": "Play with a friend",
+  "createGame": "Create a game",
+  "createGameHint": "You open the game, your friend joins with the code",
+  "joinGame": "Join a game",
+  "joinGameHint": "Got a code? Come in",
+  "samePhone": "On this phone",
+  "samePhoneHint": "Two players, one phone",
+  "roomCode": "Game code",
+  "shareCodeHint": "Give this code to your friend",
+  "waitingFriend": "Waiting for your friend to join…",
+  "sameWifiHint": "Make sure both phones are on the same Wi-Fi.",
+  "yourIp": "Your IP: {ip}",
+  "@yourIp": {
+    "placeholders": {
+      "ip": {
+        "type": "String"
+      }
+    }
+  },
+  "enterCode": "Type the code",
+  "join": "Join",
+  "joining": "Connecting…",
+  "nearbyGames": "Games on this network",
+  "gameOnNetwork": "This game is on your network",
+  "noGamesFound": "No game found nearby. Try the code.",
+  "searchAgain": "Search again",
+  "joinByIp": "Join by IP",
+  "hostIpLabel": "Your friend's IP",
+  "connected": "Connected!",
+  "playersReady": "Players ready?",
+  "imReady": "I'm ready",
+  "youAreReady": "You're ready",
+  "friendReady": "Your friend is ready",
+  "friendNotReady": "Your friend isn't ready yet…",
+  "friendChoseSpecial": "Your friend picked Special Chess",
+  "friendChoseNormal": "Your friend picked Classic Chess",
+  "youPlayWhite": "You play White",
+  "youPlayBlack": "You play Black",
+  "errNoNetwork": "No local network. Turn on Wi-Fi and try again.",
+  "errInvalidCode": "That code doesn't look right.",
+  "errHostNotFound": "Game not found. Make sure both phones are on the same Wi-Fi.",
+  "errRoomFull": "That game is full: it already has two players.",
+  "errWrongCode": "Wrong code. Check it with your friend.",
+  "errVersion": "Both phones need the same version of the game.",
+  "errCannotHost": "Couldn't open the game. Try again.",
+  "errUnknown": "Something went wrong. Try again.",
+  "connectionLost": "Connection lost.",
+  "reconnecting": "Trying to reconnect…",
+  "friendLeft": "Your friend left the game.",
+  "friendDisconnected": "Your friend lost the connection. Waiting for them…",
+  "friendBack": "Your friend is back!",
+  "protocolError": "A connection problem ended the game.",
+  "tryAgain": "Try again",
+  "goHome": "Home",
+  "yourTurn": "Your move.",
+  "opponentTurn": "Opponent's move.",
+  "aiThinking": "Thinking…",
+  "check": "Check!",
+  "whiteToMove": "White to move",
+  "blackToMove": "Black to move",
+  "you": "You",
+  "opponent": "Opponent",
+  "friend": "Your friend",
+  "ai": "AI",
+  "white": "White",
+  "black": "Black",
+  "resign": "Resign",
+  "resignConfirm": "Sure you want to resign?",
+  "offerDraw": "Offer a draw",
+  "drawOffered": "Your friend offers a draw.",
+  "drawOfferSent": "Draw offer sent…",
+  "accept": "Accept",
+  "decline": "Decline",
+  "drawDeclined": "Your friend declined the draw.",
+  "undo": "Take back",
+  "leaveGame": "Leave the game?",
+  "leaveGameBody": "The game will end.",
+  "stay": "Keep playing",
+  "leave": "Leave",
+  "illegalMove": "Whoa, what was that? 😂",
+  "promoteTitle": "Promote the pawn to…",
+  "gameStartToast": "And the war begins.",
+  "holdTight": "Hold tight!",
+  "pieceKing": "King",
+  "pieceQueen": "Queen",
+  "pieceRook": "Rook",
+  "pieceBishop": "Bishop",
+  "pieceKnight": "Knight",
+  "piecePawn": "Pawn",
+  "buildYourArmy": "Build your army",
+  "buildYourArmyHint": "Arrange your pieces any way you like.",
+  "remainingPieces": "Pieces left",
+  "allPlaced": "Your whole army is on the board.",
+  "reset": "Start over",
+  "autoPlace": "Place for me",
+  "done": "Done",
+  "editArmy": "Change my setup",
+  "opponentHidden": "Opponent's army is hidden",
+  "opponentPlacing": "Opponent placing: {n}/{total}",
+  "@opponentPlacing": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "opponentArmyReady": "Opponent is ready",
+  "waitingOpponentArmy": "Your army is ready. Waiting for the opponent…",
+  "lockedIn": "Locked! Nobody can change anything now.",
+  "pawnBackRank": "Pawns can't stand on your back rank.",
+  "outsideZone": "Keep your pieces on your own side.",
+  "invalidPosition": "This position isn't valid.",
+  "moveKing": "Move your king.",
+  "missingPieces": "{n} pieces still to place.",
+  "@missingPieces": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "timeUp": "Time's up! We placed the rest for you.",
+  "dragHint": "Tap a piece then a square, or drag it onto the board.",
+  "removePiece": "Remove",
+  "passPhoneTo": "Hand the phone to {player}",
+  "@passPhoneTo": {
+    "placeholders": {
+      "player": {
+        "type": "String"
+      }
+    }
+  },
+  "passPhoneHint": "The other player looks away 😉",
+  "imHere": "I'm ready",
+  "armiesReady": "Both armies are ready…",
+  "revealWord": "REVEAL!",
+  "curtainRising": "The curtain is rising…",
+  "battleBegins": "The battle begins!",
+  "letsSee": "Now let's see who came prepared!",
+  "kingInDanger": "Your king is under fire! Move it.",
+  "opponentKingInDanger": "The opponent's king is under fire and is being moved…",
+  "kingRescueHint": "Pick a safe square (in gold).",
+  "kingRescueFor": "{player}: your king is under fire! Move it.",
+  "@kingRescueFor": {
+    "placeholders": {
+      "player": {
+        "type": "String"
+      }
+    }
+  },
+  "setupRedo": "These two armies can't start a game. Build them again.",
+  "youWon": "You won!",
+  "youLost": "You lost!",
+  "draw": "Draw!",
+  "whiteWins": "White wins!",
+  "blackWins": "Black wins!",
+  "wonSubtitle": "Well played, champ!",
+  "lostSubtitle": "No worries, next time is yours.",
+  "drawSubtitle": "No winner, no loser.",
+  "checkmateWin": "Boss move: that's checkmate!",
+  "reasonCheckmate": "Checkmate",
+  "reasonStalemate": "Stalemate",
+  "reasonInsufficient": "Not enough pieces to mate",
+  "reasonRepetition": "Same position three times",
+  "reasonFifty": "Fifty moves without progress",
+  "reasonResign": "Resignation",
+  "reasonDrawAgreed": "Draw by agreement",
+  "reasonAbandon": "Opponent left",
+  "statMode": "Mode",
+  "statMoves": "Moves",
+  "statDuration": "Time",
+  "statCaptured": "Captured",
+  "yourArmy": "Your army",
+  "opponentArmy": "Opponent's army",
+  "whiteArmy": "White's army",
+  "blackArmy": "Black's army",
+  "playAgain": "Play again",
+  "rematchRequested": "Rematch requested. Waiting for your friend…",
+  "rematchOffered": "Your friend wants a rematch!",
+  "viewBoard": "See the board",
+  "engineLabel": "Engine: {name}",
+  "@engineLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageShort": "EN",
+  "errInvalidIp": "That IP address isn't valid.",
+  "pieceThemeTunisian": "Tunisian",
+  "aboutTitle": "About {app}",
+  "aboutSlogan": "Classic chess.\nTunisian identity.\nA different way to play.",
+  "aboutDescription": "A Tunisian chess game with classic chess and a unique hidden-army Special Mode.",
+  "aboutSpecialTitle": "SPECIAL MODE",
+  "aboutSpecialBody": "Build your army without letting your opponent see it.",
+  "aboutDeveloperTitle": "DEVELOPER",
+  "developedBy": "Developed by {name}",
+  "madeInTunisia": "Made in Tunisia",
+  "madeInTunisiaFlag": "Made in Tunisia 🇹🇳",
+  "contactTitle": "CONTACT & FEEDBACK",
+  "contactQuestion": "Found a bug? Have an idea or a suggestion?",
+  "contactBody": "Contact me for bugs, suggestions or feedback.",
+  "contactDeveloper": "Contact Developer",
+  "reportBug": "Report a Bug",
+  "sendFeedback": "Send Feedback",
+  "sendSuggestion": "Suggest an idea",
+  "followDeveloper": "Follow the Developer",
+  "linkGithub": "GitHub",
+  "linkLinkedin": "LinkedIn",
+  "linkInstagram": "Instagram",
+  "linkFacebook": "Facebook",
+  "linkEmail": "Email",
+  "versionLabel": "Version {version}",
+  "linkOpenFailed": "Couldn't open it. The address was copied instead.",
+  "bugWhatWentWrong": "What went wrong?",
+  "bugDescriptionHint": "Describe what happened and what you expected.",
+  "bugGameMode": "Game mode (optional)",
+  "bugIncludeDevice": "Include device information",
+  "bugPrivacyNote": "This opens your email app with the report ready. Nothing is sent until you press send.",
+  "sectionAbout": "About",
+  "@aboutTitle": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "@developedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+name: chess_tn
+description: "chess.tn - a Tunisian chess game with classic chess and a hidden-army Special Mode. Developed by Iheb El Ech."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.3
+
+  # State management
+  flutter_riverpod: ^3.4.3
+
+  # Chess rules (legal moves, FEN, draws) and the native Stockfish engine
+  dartchess: ^0.14.0
+  multistockfish: ^0.6.1
+
+  # Sound, persistence, commit-reveal hashing
+  audioplayers: ^6.8.1
+  shared_preferences: ^2.5.5
+  crypto: ^3.0.7
+  url_launcher: ^6.3.3
+  package_info_plus: ^10.2.2
+  font_awesome_flutter: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+  image: ^4.10.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/audio/
+    # Official chess.tn logo and the emblem cropped from it.
+    - assets/branding/chess_tn_logo.png
+    - assets/branding/chess_tn_emblem.png
+
+# Launcher icons, derived from the official logo by
+# `dart run tool/build_brand_assets.dart`, then `dart run flutter_launcher_icons`.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/branding/launcher_icon.png"
+  # White: the logo's own background. Parts of the mark are transparent and
+  # its outlines are black and red, so white is the only surface that keeps
+  # all of it visible.
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/branding/launcher_foreground.png"
+
+# Native splash: `dart run flutter_native_splash:create`.
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/branding/splash_logo.png"
+  android_12:
+    color: "#FFFFFF"
+    image: "assets/branding/splash_android12.png"
+    icon_background_color: "#FFFFFF"
